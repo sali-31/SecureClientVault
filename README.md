@@ -13,8 +13,6 @@ This project grew out of a real-world problem: small businesses often keep their
   - requires lowercase, uppercase, digit, and symbol
 - Logs encryption and decryption attempts (success and failure) to `secure_vault.log`.
 
-> ⚠️ This is an educational project, not production-ready security software.
-
 ## Installation
 
 ```bash
