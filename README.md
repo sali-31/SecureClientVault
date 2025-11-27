@@ -26,6 +26,13 @@ This project grew out of a real-world problem: small businesses often keep their
    - Memory attacks (attacker with root access while decrypted file is in RAM)
    - Weak passwords (user's responsibility to create strong password)
 
+## Real-World Use
+   
+   Small business owner stores client.csv encrypted:
+   - Laptop stolen → data still protected ✅
+   - Employee leaves company → revoke encryption password ✅
+   - Daily backup of encrypted file → no plaintext on cloud ✅
+
 ## Installation
 
 ```bash
