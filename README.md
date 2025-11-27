@@ -14,6 +14,17 @@ This project grew out of a real-world problem: small businesses often keep their
 - Logs encryption and decryption attempts (success and failure) to `secure_vault.log`.
   
   > ⚠️ This is an educational project, not production-ready security software.
+  > 
+## Threat Model
+   
+   **What this protects against:**
+   - Unauthorized access to client CSV files (if device is stolen)
+   - Competitors with file system access
+   
+   **What this does NOT protect against:**
+   - Keyloggers (attacker capturing your password as you type)
+   - Memory attacks (attacker with root access while decrypted file is in RAM)
+   - Weak passwords (user's responsibility to create strong password)
 
 ## Installation
 
